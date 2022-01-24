@@ -1,0 +1,11 @@
+ALU OPERATIONS
+
+OPCODE| ENDCODING | OPERATION  | OUTPUT
+HLT   | 000       | PASSA      | a => out
+SKZ   | 001       | PASSA      | a => out
+ADD   | 010       | ADD        | a + b => out
+AND   | 011       | AND        | a & b => out
+XOR   | 100       | XOR        | a ^ b => out
+LDA   | 101       | PASSB      | b => out
+STO   | 110       | PASSA      | a => out
+JMP   | 111       | PASSA      | a => out
